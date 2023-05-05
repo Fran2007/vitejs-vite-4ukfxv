@@ -1,7 +1,7 @@
 import { useFetch } from '../CustomHooks/useFetch';
 import { Nekos } from './Nekos';
 
-export function List() {
+export default function List() {
   const { data, fetchData } = useFetch(
     'https://nekos.best/api/v2/neko?amount=1'
   );

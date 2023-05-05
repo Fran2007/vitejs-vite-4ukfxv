@@ -1,4 +1,4 @@
-import { List } from './Componets/List';
+import { List } from '../Components/List';
 
 export default function App() {
   return (
